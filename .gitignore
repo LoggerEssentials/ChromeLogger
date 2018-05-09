@@ -1,0 +1,13 @@
+/*
+!/docs
+!/src
+!/tests
+!/.editorconfig
+!/.gitattributes
+!/.gitignore
+!/.travis.yml
+!/composer.json
+!/LICENSE
+!/mkdocs.yml
+!/README.md
+!/tests.xml

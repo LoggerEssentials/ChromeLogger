@@ -1,0 +1,25 @@
+{
+	"name": "logger/chrome",
+	"description": "A psr-3 compatible chrome-logger implementation",
+	"license": "MIT",
+	"authors": [{
+		"name": "ron",
+		"email": "ron.kirschler@gmail.com"
+	}],
+	"require": {
+		"php": ">= 5.6",
+		"psr/log": "~1.0",
+		"ccampbell/chromephp": "^4.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Logger\\": ["src/"]
+		}
+	},
+	"provide": {
+		"psr/log-implementation": "1.0.0"
+	}
+}
